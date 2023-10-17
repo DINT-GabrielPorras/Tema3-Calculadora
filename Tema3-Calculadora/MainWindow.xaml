@@ -22,8 +22,8 @@
         </Grid.ColumnDefinitions>
 
         <Border BorderBrush="Black" BorderThickness="1" Grid.ColumnSpan="3" Margin="5">
-            <Viewbox>
-                <TextBlock x:Name="cuadroTexto" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" Margin="1" Text=""/>
+            <Viewbox HorizontalAlignment="Right">
+                <TextBlock x:Name="cuadroTexto"/>
             </Viewbox>
         </Border>
         
